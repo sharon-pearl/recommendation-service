@@ -5,7 +5,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = { "com.pearlin.whatflix.recommendation.server",
+		"com.pearlin.whatflix.recommendation.service" })
 public class RecommendationServer {
 
 	private static final Logger logger = LoggerFactory.getLogger(RecommendationServer.class);

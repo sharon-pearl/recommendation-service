@@ -1,0 +1,7 @@
+server:
+  port: 10002
+services: 
+  user-service: 
+    host: http://localhost:10000
+  movie-service: 
+    host: http://localhost:10001
