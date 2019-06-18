@@ -4,4 +4,4 @@ services:
   user-service: 
     host: http://localhost:10000
   movie-service: 
-    host: http://localhost:10002
+    host: http://localhost:10001
