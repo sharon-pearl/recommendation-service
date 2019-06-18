@@ -16,7 +16,7 @@ pipeline {
         stage('Get environmental variables') {
           steps {
             script {
-               echo "Trying to get info from roche cluster config"
+               echo "Testing exclude"
             }
           }
         }
