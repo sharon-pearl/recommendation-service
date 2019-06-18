@@ -8,7 +8,7 @@ pipeline {
                 branches: [[name: 'origin/master']], 
                 extensions: [[
     			    $class: 'PathRestriction', 
-    			    excludedRegions: 'recommendation-service/tree/master/src/main/resources/.*yml'
+    			    excludedRegions: './src/main/resources/.*yml'
     		    ]],
             ])
           }
